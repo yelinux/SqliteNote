@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		810379592689992100236381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379582689992100236381 /* AppDelegate.m */; };
-		8103795C2689992100236381 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103795B2689992100236381 /* SceneDelegate.m */; };
 		8103795F2689992100236381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103795E2689992100236381 /* ViewController.m */; };
 		810379622689992100236381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810379602689992100236381 /* Main.storyboard */; };
 		810379642689992400236381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810379632689992400236381 /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		8103796A2689992400236381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379692689992400236381 /* main.m */; };
 		810379742689992400236381 /* SqliteNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379732689992400236381 /* SqliteNoteTests.m */; };
 		8103797F2689992400236381 /* SqliteNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103797E2689992400236381 /* SqliteNoteUITests.m */; };
+		8103798E26899A9900236381 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8103798D26899A9900236381 /* libsqlite3.0.tbd */; };
+		8103799226899ACC00236381 /* SqliteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103799126899ACC00236381 /* SqliteDB.m */; };
+		8103799526899FEC00236381 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103799426899FEC00236381 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		810379542689992100236381 /* SqliteNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		810379572689992100236381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		810379582689992100236381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8103795A2689992100236381 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		8103795B2689992100236381 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		8103795D2689992100236381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8103795E2689992100236381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		810379612689992100236381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,11 @@
 		8103797A2689992400236381 /* SqliteNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8103797E2689992400236381 /* SqliteNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteNoteUITests.m; sourceTree = "<group>"; };
 		810379802689992400236381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8103798D26899A9900236381 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8103799026899ACC00236381 /* SqliteDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqliteDB.h; sourceTree = "<group>"; };
+		8103799126899ACC00236381 /* SqliteDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteDB.m; sourceTree = "<group>"; };
+		8103799326899FEC00236381 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		8103799426899FEC00236381 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8103798E26899A9900236381 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +94,7 @@
 				810379722689992400236381 /* SqliteNoteTests */,
 				8103797D2689992400236381 /* SqliteNoteUITests */,
 				810379552689992100236381 /* Products */,
+				8103798C26899A9900236381 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +111,9 @@
 		810379562689992100236381 /* SqliteNote */ = {
 			isa = PBXGroup;
 			children = (
+				8103798F26899ABB00236381 /* Classes */,
 				810379572689992100236381 /* AppDelegate.h */,
 				810379582689992100236381 /* AppDelegate.m */,
-				8103795A2689992100236381 /* SceneDelegate.h */,
-				8103795B2689992100236381 /* SceneDelegate.m */,
 				8103795D2689992100236381 /* ViewController.h */,
 				8103795E2689992100236381 /* ViewController.m */,
 				810379602689992100236381 /* Main.storyboard */,
@@ -135,6 +141,25 @@
 				810379802689992400236381 /* Info.plist */,
 			);
 			path = SqliteNoteUITests;
+			sourceTree = "<group>";
+		};
+		8103798C26899A9900236381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8103798D26899A9900236381 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8103798F26899ABB00236381 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8103799026899ACC00236381 /* SqliteDB.h */,
+				8103799126899ACC00236381 /* SqliteDB.m */,
+				8103799326899FEC00236381 /* Student.h */,
+				8103799426899FEC00236381 /* Student.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8103795F2689992100236381 /* ViewController.m in Sources */,
+				8103799226899ACC00236381 /* SqliteDB.m in Sources */,
+				8103799526899FEC00236381 /* Student.m in Sources */,
 				810379592689992100236381 /* AppDelegate.m in Sources */,
 				8103796A2689992400236381 /* main.m in Sources */,
-				8103795C2689992100236381 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
