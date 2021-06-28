@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810379592689992100236381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379582689992100236381 /* AppDelegate.m */; };
+		8103795C2689992100236381 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103795B2689992100236381 /* SceneDelegate.m */; };
+		8103795F2689992100236381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103795E2689992100236381 /* ViewController.m */; };
+		810379622689992100236381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810379602689992100236381 /* Main.storyboard */; };
+		810379642689992400236381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810379632689992400236381 /* Assets.xcassets */; };
+		810379672689992400236381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810379652689992400236381 /* LaunchScreen.storyboard */; };
+		8103796A2689992400236381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379692689992400236381 /* main.m */; };
+		810379742689992400236381 /* SqliteNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810379732689992400236381 /* SqliteNoteTests.m */; };
+		8103797F2689992400236381 /* SqliteNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8103797E2689992400236381 /* SqliteNoteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810379702689992400236381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8103794C2689992100236381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810379532689992100236381;
+			remoteInfo = SqliteNote;
+		};
+		8103797B2689992400236381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8103794C2689992100236381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810379532689992100236381;
+			remoteInfo = SqliteNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810379542689992100236381 /* SqliteNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		810379572689992100236381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		810379582689992100236381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8103795A2689992100236381 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8103795B2689992100236381 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8103795D2689992100236381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8103795E2689992100236381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		810379612689992100236381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810379632689992400236381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810379662689992400236381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		810379682689992400236381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810379692689992400236381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8103796F2689992400236381 /* SqliteNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		810379732689992400236381 /* SqliteNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteNoteTests.m; sourceTree = "<group>"; };
+		810379752689992400236381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8103797A2689992400236381 /* SqliteNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqliteNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8103797E2689992400236381 /* SqliteNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqliteNoteUITests.m; sourceTree = "<group>"; };
+		810379802689992400236381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810379512689992100236381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8103796C2689992400236381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810379772689992400236381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8103794B2689992100236381 = {
+			isa = PBXGroup;
+			children = (
+				810379562689992100236381 /* SqliteNote */,
+				810379722689992400236381 /* SqliteNoteTests */,
+				8103797D2689992400236381 /* SqliteNoteUITests */,
+				810379552689992100236381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810379552689992100236381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810379542689992100236381 /* SqliteNote.app */,
+				8103796F2689992400236381 /* SqliteNoteTests.xctest */,
+				8103797A2689992400236381 /* SqliteNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810379562689992100236381 /* SqliteNote */ = {
+			isa = PBXGroup;
+			children = (
+				810379572689992100236381 /* AppDelegate.h */,
+				810379582689992100236381 /* AppDelegate.m */,
+				8103795A2689992100236381 /* SceneDelegate.h */,
+				8103795B2689992100236381 /* SceneDelegate.m */,
+				8103795D2689992100236381 /* ViewController.h */,
+				8103795E2689992100236381 /* ViewController.m */,
+				810379602689992100236381 /* Main.storyboard */,
+				810379632689992400236381 /* Assets.xcassets */,
+				810379652689992400236381 /* LaunchScreen.storyboard */,
+				810379682689992400236381 /* Info.plist */,
+				810379692689992400236381 /* main.m */,
+			);
+			path = SqliteNote;
+			sourceTree = "<group>";
+		};
+		810379722689992400236381 /* SqliteNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				810379732689992400236381 /* SqliteNoteTests.m */,
+				810379752689992400236381 /* Info.plist */,
+			);
+			path = SqliteNoteTests;
+			sourceTree = "<group>";
+		};
+		8103797D2689992400236381 /* SqliteNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8103797E2689992400236381 /* SqliteNoteUITests.m */,
+				810379802689992400236381 /* Info.plist */,
+			);
+			path = SqliteNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810379532689992100236381 /* SqliteNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810379832689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNote" */;
+			buildPhases = (
+				810379502689992100236381 /* Sources */,
+				810379512689992100236381 /* Frameworks */,
+				810379522689992100236381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SqliteNote;
+			productName = SqliteNote;
+			productReference = 810379542689992100236381 /* SqliteNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8103796E2689992400236381 /* SqliteNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810379862689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNoteTests" */;
+			buildPhases = (
+				8103796B2689992400236381 /* Sources */,
+				8103796C2689992400236381 /* Frameworks */,
+				8103796D2689992400236381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810379712689992400236381 /* PBXTargetDependency */,
+			);
+			name = SqliteNoteTests;
+			productName = SqliteNoteTests;
+			productReference = 8103796F2689992400236381 /* SqliteNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810379792689992400236381 /* SqliteNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810379892689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNoteUITests" */;
+			buildPhases = (
+				810379762689992400236381 /* Sources */,
+				810379772689992400236381 /* Frameworks */,
+				810379782689992400236381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8103797C2689992400236381 /* PBXTargetDependency */,
+			);
+			name = SqliteNoteUITests;
+			productName = SqliteNoteUITests;
+			productReference = 8103797A2689992400236381 /* SqliteNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8103794C2689992100236381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					810379532689992100236381 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8103796E2689992400236381 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 810379532689992100236381;
+					};
+					810379792689992400236381 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 810379532689992100236381;
+					};
+				};
+			};
+			buildConfigurationList = 8103794F2689992100236381 /* Build configuration list for PBXProject "SqliteNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8103794B2689992100236381;
+			productRefGroup = 810379552689992100236381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810379532689992100236381 /* SqliteNote */,
+				8103796E2689992400236381 /* SqliteNoteTests */,
+				810379792689992400236381 /* SqliteNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810379522689992100236381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810379672689992400236381 /* LaunchScreen.storyboard in Resources */,
+				810379642689992400236381 /* Assets.xcassets in Resources */,
+				810379622689992100236381 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8103796D2689992400236381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810379782689992400236381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810379502689992100236381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8103795F2689992100236381 /* ViewController.m in Sources */,
+				810379592689992100236381 /* AppDelegate.m in Sources */,
+				8103796A2689992400236381 /* main.m in Sources */,
+				8103795C2689992100236381 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8103796B2689992400236381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810379742689992400236381 /* SqliteNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810379762689992400236381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8103797F2689992400236381 /* SqliteNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810379712689992400236381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810379532689992100236381 /* SqliteNote */;
+			targetProxy = 810379702689992400236381 /* PBXContainerItemProxy */;
+		};
+		8103797C2689992400236381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810379532689992100236381 /* SqliteNote */;
+			targetProxy = 8103797B2689992400236381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810379602689992100236381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810379612689992100236381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810379652689992400236381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810379662689992400236381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810379812689992400236381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		810379822689992400236381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810379842689992400236381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810379852689992400236381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		810379872689992400236381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteNote.app/SqliteNote";
+			};
+			name = Debug;
+		};
+		810379882689992400236381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SqliteNote.app/SqliteNote";
+			};
+			name = Release;
+		};
+		8103798A2689992400236381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteNote;
+			};
+			name = Debug;
+		};
+		8103798B2689992400236381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SqliteNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.SqliteNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SqliteNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8103794F2689992100236381 /* Build configuration list for PBXProject "SqliteNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810379812689992400236381 /* Debug */,
+				810379822689992400236381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810379832689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810379842689992400236381 /* Debug */,
+				810379852689992400236381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810379862689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810379872689992400236381 /* Debug */,
+				810379882689992400236381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810379892689992400236381 /* Build configuration list for PBXNativeTarget "SqliteNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8103798A2689992400236381 /* Debug */,
+				8103798B2689992400236381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8103794C2689992100236381 /* Project object */;
+}
